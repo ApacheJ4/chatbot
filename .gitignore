@@ -139,7 +139,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-Core/
 chatbot_venv/
 .env
 .venv
