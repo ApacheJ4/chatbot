@@ -1,0 +1,31 @@
+# Clone
+```bach
+git clone https://github.com/ApacheJ4/chatbot.git
+```
+
+# Create VENV
+```bash
+python -m venv chatbot_venv
+```
+
+# Act VENV
+**windows**
+```bash
+chatbot_venv\Scripts\activate
+```
+
+**linux**
+```bash
+source chatbot_venv\Scripts\activate
+```
+
+# install depn
+```bash
+pip install -r requirements.txt
+```
+
+# Run pro...
+```bash
+fastapi dev main.py
+uvicorn main:app --reload
+```
